@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
+   <link href="{{ url_for('static', filename='css/bootstrap-social.css') }}" rel="stylesheet" />  
+   <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet" />
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  </head>
+ <body style="background-color:white;">
+  
+  
+  
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed"
+      data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+      aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ url_for('.home') }}">Home</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+	  <li><a href="{{ url_for('dachau') }}">Dachau</a></li>
+        <li><a href="{{ url_for('main') }}">Posts</a></li>
+        <li><a href="{{ url_for('post') }}">Your Story</a></li>
+        <li><a href="{{ url_for('interview') }}">Interview</a></li>
+       </ul>
+       </div>
+    </div>
+  </nav>
+  
+ 
+	  
+	  
+	  
+		
+    </div>
+	
+	 <style>
+  .business-header {
+	height: 300px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-attachment: scroll;
+	background-image: url(http://localhost:5000/static/war5.png);
+	background-color: #101010;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+</style>
+
+   <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Remember IT</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+	
+  </div>
+  
+ 
+  
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Welcome On The Interview Page</h2>
+                <p>On the interview page you will watch the interview with my grandmother that was in Dachau concentration camp for a year. She will share her history and her point of view. During the interview there will be also video of documentation from Polish Institute of Remember.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+		
+<iframe width="1145" height="600" src="https://www.youtube.com/embed/cdfGuwzAe3k" frameborder="0" allowfullscreen></iframe>
+
+
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="http://localhost:5000/static/war4.png" alt="" width="300" height="300" class="img-square img-responsive img-center">
+                <h2>History</h2>
+                <p>The Invasion of Poland, also known as the September Campaign, or the 1939 Defensive War in Poland (Polish: Kampania wrześniowa or Wojna obronna 1939 roku), and alternatively the Poland Campaign (German: Polenfeldzug) or Fall Weiss in Germany (Case White), was a joint invasion of Poland by Nazi Germany, the Free City of Danzig, the Soviet Union, and a small Slovak contingent, that marked the beginning of World War II in Europe.</p>
+                    <a class="btn btn-default btn-lg" href="http://www.bbc.co.uk/history/worldwars/wwtwo/invasion_poland_01.shtml">Read More</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="http://localhost:5000/static/war5.png" alt="" width="300" height="300" class="img-square img-responsive img-center">
+                <h2>Dachau Camp</h2>
+                <p>On March 22, 1933, a few weeks after Adolf Hitler had been appointed Reich Chancellor, a concentration camp for political prisoners was set up in Dachau. This camp served as a model for all later concentration camps and as a "school of violence" for the SS men under whose command it stood. In the twelve years of its existence over 200.000 persons from all over Europe were imprisoned here and in the numerous subsidary camps. 41.500 were murdered. On April 29 1945, American troops liberated the survivors.</p><p>
+                     <a class="btn btn-default btn-lg" href="https://www.kz-gedenkstaette-dachau.de/index-e.html">Read More</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-square img-responsive img-center" src="http://localhost:5000/static/war6.png" alt="">
+                <h2>Family</h2>
+                <p>My granny was born in in 21 January 1936 in Leszno that is a city placed near to the city Poznan that is one of the most well known cities in Polsan. As a small girl my grandmother was taken into Dachau concentration cam where she was keept for over a year. When war started in 1939 year she did not understanded what was happening as the most of the people in Leszno. If you would like to watch the entire interview and also would like to see additional pictures you can check the interview page.</p><p>
+                     <a class="btn btn-default btn-lg" href="http://localhost:5000/interview/">Read More</a>
+                </p>
+            </div>
+        </div>
+        <!-- /.row -->
+		
+		</br></br></br></br></br>
+        <hr>
+  
+  
+   <!-- Footer -->
+        <footer>
+            <nav class="navbar navbar-inverse navbar-fixed-bottom navbar-color-black">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; MZBEAUTY2016</p><a href="#">Back to top</a>
+					<a class="btn btn-social-icon btn-twitter">
+				<span class="fa fa-twitter"></span></a>
+				<a class="btn btn-social-icon btn-facebook">
+				<span class="fa fa-facebook"</span></a> 
+			
+            </div>
+            <!-- /.row -->
+        </footer>
+  
+  
+   
+ <script text="javascript">
+ </script>   
+  </body>
+</html>
